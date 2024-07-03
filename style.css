@@ -46,3 +46,41 @@ html {
     background-color: gold;
     transition: transform 0.3s cubic-bezier(0.5, 0, 0, 0.5);
 }
+
+.navigate .line-1 {
+    transform: rotateZ(135deg) translate(0.7rem);
+}
+
+.navigate .line-2 {
+    transform: rotateZ(225deg) translate(0.7rem);
+}
+
+.menu-icon span {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: gold;
+    position: absolute;
+    right: 0;
+}
+
+.menu {
+    transition: color 0.3s, transform 0.3s 0.1s; 
+}
+
+.navigate .close {
+    transform: translateY(-120%);
+    transition: transform 0.3s 0.1s;
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
