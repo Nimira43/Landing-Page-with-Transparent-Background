@@ -1,1 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Truculenta', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-icon {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    width: 10rem;
+    height: 3rem;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    overflow: hidden;
+}
+
+.lines {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.line {
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: gold;
+    transition: transform 0.3s cubic-bezier(0.5, 0, 0, 0.5);
+}
