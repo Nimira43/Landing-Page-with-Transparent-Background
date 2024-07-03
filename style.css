@@ -174,3 +174,8 @@ html {
     overflow: hidden;
     transition: filter 0.5s;
 }
+
+.navigate .landing {
+    filter: blur(1.5rem);
+    transition: filter 0.5s 0.5s
+}
