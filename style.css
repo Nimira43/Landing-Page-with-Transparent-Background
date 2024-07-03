@@ -179,3 +179,62 @@ html {
     filter: blur(1.5rem);
     transition: filter 0.5s 0.5s
 }
+
+.landing-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.main-heading {
+    position: absolute;
+    top: 25%;
+    font-family: 'Caveat', cursive;
+    font-size: 20rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    z-index: 100;
+    transition: all 1s;
+}
+
+.navigate .main-heading {
+    transform: translateY(-5rem);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-heading-left {
+    right: -1%;
+    color: gold;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    transition: all 1s;
+}
+
+.navigate .about {
+    transform: translateX(5rem);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.about h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: gold;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+    font-size: 1.6rem;
+    color: gold;
+    width: 50rem;
+    margin: 1rem 0 3rem 0;
+}
